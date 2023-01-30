@@ -1,0 +1,483 @@
+body{
+  background-image: url(images/desert.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* titres */
+h1{
+  color: #282828;
+  text-align: center;
+}
+
+@media all and (max-device-width: 480px) {
+  h1{
+    font-size: 3em !important;
+  }
+  h2{
+    font-size: 2.2em !important;
+  }
+}
+
+h2{
+  color: #551B19;
+  text-align: center;
+}
+
+h3{
+  color: #551B19;
+}
+
+/* textes */
+a{
+  color: #551B19;
+  text-decoration: none;
+}
+
+div.texte{
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 5px;
+  border-radius: 2px;
+}
+
+@media all and (max-device-width: 900px) {
+  div.texte{
+    font-size: 1.1em !important;
+  }
+}
+
+@media all and (max-device-width: 480px) {
+  div.texte{
+    font-size: 1.8em !important;
+  }
+}
+
+pre.code1{
+  border: 1px solid;
+  width: 400px;
+  height: 210px;
+  background-color: #E6A30B;
+  padding-top: 5px;
+  opacity: 0.8;
+}
+
+@media all and (max-device-width: 900px) {
+  pre.code1{
+    width: 450px !important;
+    height: 230px !important;
+  }
+}
+
+@media all and (max-device-width: 480px) {
+  pre.code1{
+    width: 710px !important;
+    height: 380px !important;
+  }
+}
+
+pre.code2{
+  padding-top: 5px;
+  border: 1px solid;
+  width: 400px;
+  height: 140px;
+  background-color: #E6A30B;
+  opacity: 0.8;
+}
+
+@media all and (max-device-width: 900px) {
+  pre.code2{
+    height: 150px !important;
+  }
+}
+
+@media all and (max-device-width: 480px) {
+  pre.code2{
+    width: 700px !important;
+    height: 250px !important;
+  }
+}
+
+p.texteshrek{
+  display: none;
+}
+
+/* menu */
+nav.menu {
+  text-align: center;
+  border: #4B2924 2px dotted;
+  width: 40%;
+  margin: auto;
+}
+
+@media all and (max-device-width: 900px) {
+  nav.menu{
+    width: 50% !important;
+  }
+}
+
+@media all and (max-device-width: 480px) {
+  nav.menu{
+    width: 55% !important;
+  }
+}
+
+nav.menu a{
+  margin: 7px;
+  text-decoration: none;
+  color: #4B2924;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+@media all and (max-device-width: 480px) {
+  nav.menu a{
+    font-size: 1.9em !important;
+  }
+}
+
+nav.menu a:hover{
+  color: #E6A30B;
+}
+
+/* footer */
+footer nav{
+  margin-top: 60px;
+  text-align: left;
+  background-color: rgba(230, 163, 11, 0.6);
+  width: 100%;
+  height: 30px;
+}
+
+@media all and (max-device-width: 480px) {
+  footer nav{
+    height: 40px;
+  }
+}
+
+p.copyright{
+  background-color: rgba(230, 163, 11, 0.6);
+  width: 100%;
+  height: 20px;
+}
+
+@media all and (max-device-width: 480px) {
+  p.copyright{
+    font-size: 1.5em;
+    height: 30px;
+  }
+}
+
+footer a{
+  margin: 7px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+  /*padding: 5px;*/
+}
+
+@media all and (max-device-width: 480px) {
+  footer a{
+    font-size: 2em !important;
+  }
+}
+
+footer a:hover{
+  color: #551B19;
+}
+
+/* images */
+img.logo{
+  width: 5%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+@media all and (max-device-width: 900px) {
+  img.logo{
+    width: 7% !important;
+  }
+}
+
+@media all and (max-device-width: 480px) {
+  img.logo{
+    width: 10% !important;
+  }
+}
+
+div.banniere{
+  background-image: url(images/prince.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 70%;
+  margin-top: 10px;
+}
+
+@media all and (max-device-width: 900px) {
+  div.banniere{
+    height: 25% !important;
+  }
+}
+
+@media all and (max-device-width: 480px) {
+  div.banniere{
+    height: 15% !important;
+  }
+}
+
+div.fotorama{
+  display: none;
+}
+
+/* animations */
+div#anim1{
+  width: 90%;
+  height: 90%;
+  display: flex;
+}
+
+@media all and (max-device-width: 900px) {
+  div#anim1{
+    height: 20% !important;
+    margin-top: 50px !important;
+  }
+}
+
+@media all and (max-device-width: 480px) {
+  div#anim1{
+    height: 20% !important;
+  }
+}
+
+div#moses{
+  background-image: url(images/moses.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 80%;
+  height: 80%;
+  margin-right: 200px;
+}
+
+@media all and (max-device-width: 480px) {
+  div#moses{
+    width: 5000px !important;
+  }
+}
+
+div#mer1{
+  background-image: url(images/mer1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+
+@media all and (max-device-width: 480px) {
+  div#mer1{
+    width: 5000px !important;
+  }
+}
+
+div#mer2{
+  background-image: url(images/mer2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+
+@media all and (max-device-width: 480px) {
+  div#mer2{
+    width: 5000px !important;
+  }
+}
+
+@keyframes merendeux {
+      from {margin-right: 0;}
+      to {margin-right: 100px;}
+}
+
+.meranim1{
+  animation-name: merendeux;
+  animation-duration: 5s;
+}
+
+.meranim2{
+  animation-name: merendeux;
+  animation-duration: 3s;
+  animation-delay: 2s;
+}
+
+.meranim3{
+  animation-name: merendeux;
+  animation-duration: 3s;
+  animation-direction: alternate-reverse;
+}
+
+.meranim4{
+  animation-name: merendeux;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+
+div#backrepeat{
+  background-image: url(images/background1.png);
+  background-size: 40%;
+  background-color: white;
+  width: 60%;
+  height: 70%;
+  margin: auto;
+}
+
+@media all and (max-device-width: 900px) {
+  div#backrepeat{
+    height: 30% !important;
+    margin-bottom: 50px;
+  }
+}
+
+@media all and (max-device-width: 480px) {
+  div#backrepeat{
+    width: 80% !important;
+    height: 25% !important;
+  }
+}
+
+.backrepeat1{
+  background-repeat: no-repeat;
+}
+
+.backrepeat2{
+  background-repeat: repeat-x;
+}
+
+.backrepeat3{
+  background-repeat: repeat-y;
+}
+
+.backrepeat4{
+  background-repeat: repeat;
+}
+
+/* boutons */
+div.buttonanim{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttonanim > .button1, .buttonanim > .button2, .buttonanim > .button3, .buttonanim > .button4{
+  background-color: #E6A30B;
+  border-radius: 5px;
+  padding: 5px;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+  box-shadow: 4px 4px 0 #F3D40C;
+}
+
+@media all and (max-device-width: 900px) {
+  .buttonanim > .button1, .buttonanim > .button2, .buttonanim > .button3, .buttonanim > .button4{
+    font-size: 1.1em !important;
+    width: 300px !important;
+  }
+}
+
+@media all and (max-device-width: 480px) {
+  .buttonanim > .button1, .buttonanim > .button2{
+    font-size: 1.7em !important;
+    width: 280px !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+.buttonanim  > .button3, .buttonanim > .button4{
+  width: 260px;
+}
+
+@media all and (max-device-width: 480px) {
+  .buttonanim > .button3, .buttonanim > .button4{
+    font-size: 1.7em !important;
+    margin: 10px !important;
+    width: 450px !important;
+    margin-bottom: 60px !important;
+  }
+}
+
+.buttonanim  > .button1:hover, .buttonanim > .button2:hover, .buttonanim > .button3:hover, .buttonanim > .button4:hover{
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+div.buttonrepeat{
+  display: flex;
+  width: 500px;
+  margin: auto;
+}
+
+.buttonrepeat > .button1, .buttonrepeat > .button2, .buttonrepeat > .button3, .buttonrepeat > .button4{
+  background-color: #E6A30B;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  box-shadow: 4px 4px 0 #F3D40C;
+}
+
+@media all and (max-device-width: 900px) {
+  .buttonrepeat > .button1, .buttonrepeat > .button2, .buttonrepeat > .button3, .buttonrepeat > .button4{
+    font-size: 1.1em !important;
+  }
+}
+
+@media all and (max-device-width: 480px) {
+  .buttonrepeat > .button1, .buttonrepeat > .button2, .buttonrepeat > .button3, .buttonrepeat > .button4{
+    font-size: 1.2em !important;
+    width: 400px !important;
+  }
+}
+
+.buttonrepeat  > .button1:hover, .buttonrepeat > .button2:hover, .buttonrepeat > .button3:hover, .buttonrepeat > .button4:hover{
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.buttonposi, .buttonsize, .buttonclip{
+  display: none;
+}
+
+/*bouton page lien*/
+input:nth-of-type(3){
+  background-color: #E6A30B;
+  border-radius: 3px;
+}
+
+@media all and (max-device-width: 900px) {
+  input:nth-of-type(3){
+    font-size: 1em;
+    width: 100px;
+  }
+}
+
+@media all and (max-device-width: 480px) {
+  input:nth-of-type(3){
+    font-size: 1.1em;
+    width: 200px;
+  }
+  input:nth-of-type(1){
+    height: 30px;
+  }
+  input:nth-of-type(2){
+    height: 30px;
+  }
+}
